@@ -1,0 +1,1 @@
+web: gunicorn DevLittleGirls.wsgi --log-file -
