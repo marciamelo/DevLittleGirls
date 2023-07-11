@@ -96,7 +96,7 @@ WSGI_APPLICATION = 'DevLittleGirls.wsgi.application'
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 #         'NAME': 'devlittlegirls',
-#         'USER': 'postgres',
+#         'USER': 'postgres', #devlittlegirls
 #         'PASSWORD': 'dados123',
 #         'HOST': '127.0.0.1',
 #         'PORT': '5432',
