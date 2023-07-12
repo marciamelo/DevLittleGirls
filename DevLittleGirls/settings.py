@@ -109,7 +109,8 @@ WSGI_APPLICATION = 'DevLittleGirls.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default='postgresql://postgres:postgres@localhost:5432/devlittlegirls',
+        # default='postgresql://postgres:postgres@localhost:5432/devlittlegirls',
+        default='postgres://devlittlegirls:LeFT30xxOKMSDj6kHWz9c6ghxLEXUGbE@dpg-cimu91lph6evlauba3eg-a.oregon-postgres.render.com/devlittlegirls',
         conn_max_age=600
     )
 }
